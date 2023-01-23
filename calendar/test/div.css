@@ -1,0 +1,43 @@
+div{
+    background-color: grey;
+    width: 100%;
+    height: 160px;
+    border:1px solid black ;
+}
+.main{
+
+}
+.relative{
+    position: relative;
+    background-color: black;
+ 
+    height: 300px;
+    width: 300px;
+    left: 500px;
+}
+.absolute{
+    position: absolute;
+     height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left:80%;
+    background-color: brown;
+}
+.square {
+    height: 50px;
+    width: 50px;
+left: 30%;
+top: 25%;
+position: absolute;
+}
+span_relative {
+    color: aquamarine;
+}
+span_absolute {
+    color: antiquewhite;
+}
+/* .pin{
+    position: absolute;
+    top:0;
+background-color: blue;
+} */

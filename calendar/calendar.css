@@ -1,0 +1,63 @@
+.table2 {
+    text-align: center;
+}
+
+.name1 {
+    float: left;
+    font-size: larger;
+
+}
+
+.day {
+    font-size: x-large;
+}
+
+/* th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+} */
+/* div {
+/*     width: 30px;
+    height: 30px; 
+    border: 1px solid black;
+} */
+
+.main{
+    margin:auto;
+    width: 60%;
+    border: 1px solid black;
+    
+}
+.main-months{
+    
+}
+.main-months-names{
+    /* border: 1px solid black; */
+    text-align: center;
+    display: inline-block;
+    width: 8%;
+}
+.main-weekdays{}
+.main-weekdays-names{
+    text-align: center;
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: 13%;
+        }
+.main-days{
+    text-align: center;
+        }
+.main-days-day{
+    vertical-align: bottom;
+    border: 1px solid black;
+    display: inline-block;
+    width:14%;
+    height: 80px;
+        }
+        .main-days-day {
+            
+        }
+    span

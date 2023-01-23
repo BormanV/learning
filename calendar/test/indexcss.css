@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    /* position: relative;*/
+    border: 1px solid black;/*задаем для родительского блока относительное позиционирование, чтобы потом абсолютно позиционировать блок внутри него*/}
+   .box {
+     border: 1px solid black;
+   width: 400px;
+   height: 400px;
+   position: absolute; 
+   left: 50%;
+   /*top: 50%;
+   margin-top: -50px;*/
+   margin-left: -200px;
+   text-align: center;
+   }
+   span {
+     padding-top:50%;
+     margin-bottom: -8px;
+     top: 50%;
+     position: relative;
+     margin-top: -8px;
+   }

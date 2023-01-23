@@ -1,0 +1,77 @@
+body{
+    background-color: burlywood;
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+
+h1{
+    color: brown;
+}
+
+.vvv {
+    color: white;
+}
+/* .bmp {
+    width: 350px;
+    border-radius: 28px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+}
+
+.sp {
+    width: 350px;
+    border-radius: 28px;
+}
+
+.mortar {
+    width: 350px;
+    border-radius: 28px;
+}
+
+.t-80 {
+    width: 350px;
+    border-radius: 28px;
+} */
+
+.gallery img {
+    width: 350px;
+    border-radius: 28px;
+}
+
+.text p {
+    color: darkolivegreen;
+    margin: 0;
+    font-style: italic;
+    /* letter-spacing: 1px; */
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+    height: 400px;
+}
+
+.news {
+    background:khaki;
+    padding: 25px;
+    border: 5px solid lightgoldenrodyellow;
+    margin-top: 15px;
+    border-style: outset;
+    }
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.box-model div {
+    background: grey;
+    height: 200px;
+    width: 25%;
+    float: left;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
