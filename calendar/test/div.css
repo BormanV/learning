@@ -1,6 +1,11 @@
 .body {
     background-color: rgb(1, 8, 48);
 }
+
+span{
+    color: red;
+    margin: 20px;
+}
 .box1 {
     height: 200px;
     width: 200px;
@@ -9,5 +14,27 @@
     border-radius: 15%;
     position: absolute;
     left: 5%;
+    top: 5%;
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    border: solid grey;
+    background-color : bisque;
+    border-radius: 15%;
+    position: absolute;
+    left: 25%;
+    top: 5%;
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    border: solid grey;
+    background-color : bisque;
+    border-radius: 15%;
+    position: absolute;
+    left: 45%;
     top: 5%;
 }
