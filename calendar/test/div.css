@@ -2,62 +2,30 @@
     background-color: rgb(1, 8, 48);
 }
 
+.head {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
 span{
     color: red;
     /*margin-top: 25px;*/
     
-}
-.box1 {
-    height: 200px;
-    width: 200px;
-    border: solid grey;
-    background-color : bisque;
-    border-radius: 15%;
-    position: absolute;
-    left: 5%;
-    top: 5%;
+    
 }
 
-.box2 {
+.box {
+    display: flex;
     height: 200px;
     width: 200px;
     border: solid grey;
     background-color : bisque;
     border-radius: 15%;
-    position: absolute;
-    left: 25%;
-    top: 5%;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.box3 {
-    height: 200px;
-    width: 200px;
-    border: solid grey;
-    background-color : bisque;
-    border-radius: 15%;
-    position: absolute;
-    left: 45%;
-    top: 5%;
-}
 
-.box4 {
-    height: 200px;
-    width: 200px;
-    border: solid grey;
-    background-color : bisque;
-    border-radius: 15%;
-    position: absolute;
-    left: 65%;
-    top: 5%;
-}
 
-.box5 {
-    height: 200px;
-    width: 200px;
-    border: solid grey;
-    background-color : bisque;
-    border-radius: 15%;
-    position: absolute;
-    left: 85%;
-    top: 5%;
 }
