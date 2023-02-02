@@ -26,3 +26,15 @@ span{
     align-items: center;
 
 }
+.middle{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lbox {
+    height: 300px;
+    width: 450px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+
+}
