@@ -26,9 +26,21 @@ span{
     align-items: center;
 
 }
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.menu-box{
+    height: 50px;
+    width: 125px;
+    background-color: green;
+    }
+
 .middle{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 200px;
 }
 
 .lbox {
