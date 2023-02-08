@@ -1,5 +1,5 @@
 .body {
-    background-color: rgb(10, 23, 97);
+    background-color: #030303;
 }
 
 .head {
@@ -21,7 +21,6 @@ span{
     width: 200px;
     border: solid grey;
     background-color : bisque;
-    border-radius: 15%;
     justify-content: center;
     align-items: center;
 
@@ -33,9 +32,10 @@ span{
 }
 .menu-box{
     height: 50px;
-    width: 125px;
+    width: 225px;
     background-color: green;
-    }
+    border-radius: 100px;
+        }
 
 .middle{
     display: flex;
