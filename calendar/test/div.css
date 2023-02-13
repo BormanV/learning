@@ -5,3 +5,7 @@
 .main-header-logo {
     border: solid 2px white;
 }
+
+.main-header-logo-img{
+    src="https://music.youtube.com/img/on_platform_logo_dark.svg"
+}
