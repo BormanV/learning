@@ -1,3 +1,7 @@
+.body{
+    background-color:#030303;
+}
+
 .main-header-logo {
-    border: solid 2px black;
+    border: solid 2px white;
 }
