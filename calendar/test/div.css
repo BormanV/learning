@@ -11,7 +11,7 @@
 }
 .main-header-menu-navigation{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     flex-wrap: wrap;
     gap: 3em;
     color: antiquewhite;
@@ -19,4 +19,16 @@
 }
 .main-header-menu{
     margin-top: -3%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.main-header-menu-search{
+    /* display: flex;
+    justify-content:center; */
+    flex-wrap: wrap;
+    /* gap: 3em; */
+    color: antiquewhite;
+    font-size: 22px;
 }
