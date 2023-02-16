@@ -13,9 +13,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 4em;
-    /* align-content: center; */
-
-    color: beige;
-
+    gap: 3em;
+    color: antiquewhite;
+    font-size: 22px;
+}
+.main-header-menu{
+    margin-top: -3%;
 }
