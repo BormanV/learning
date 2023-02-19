@@ -25,10 +25,35 @@
 }
 
 .main-header-menu-search{
-    /* display: flex;
-    justify-content:center; */
-    flex-wrap: wrap;
-    /* gap: 3em; */
+    display: flex;
+    /* flex-wrap: wrap; */
     color: antiquewhite;
     font-size: 22px;
 }
+
+.main-header-menu-search-icon{
+    background-color: aliceblue;
+    height: 30px;
+    width: 30px;
+}
+
+.main-header-signin{
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main-header-signin-btn{
+    background-color: aliceblue;
+    color: #030303;
+    font-size: 14px;
+    font-family:Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    padding: 0 16px;
+    border-radius: 16px;
+    }
+
+
