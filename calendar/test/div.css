@@ -17,6 +17,7 @@
     gap: 3em;
     color: antiquewhite;
     font-size: 22px;
+    font-family:Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
 }
 
 .main-header-menu{
@@ -37,6 +38,10 @@
     height: 30px;
     width: 30px;
 }
+.span{
+    background-color: aliceblue
+}
+
 
 .main-header-signin{
     margin-top: -30px;
