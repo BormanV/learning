@@ -10,13 +10,12 @@
     margin: 1%;
 }
 .main-header-menu-navigation{
-    margin-top: 5px;
     display: flex;
     justify-content: center; 
     flex-wrap: wrap;
-    gap: 3em;
-    color: antiquewhite;
-    font-size: 22px;
+    gap: 2em;
+    color: #fff;
+    font-size: 20px;
     font-family:Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
 }
 
@@ -30,14 +29,15 @@
 .main-header-menu-search{
     display: flex;
     /* flex-wrap: wrap; */
-    color: antiquewhite;
-    font-size: 22px;
+    color: #fff;
+    font-size: 20px;
 }
 
 .main-header-menu-search-icon{
     height: 30px;
     width: 30px;
 }
+
 .span{
     background-color: aliceblue
 }
@@ -49,9 +49,15 @@
     align-items: center;
     justify-content: flex-end;
 }
+/* .main-header-signin-broadcast{
+
+} */
+/* .path{
+    background-color: #fff;
+} */
 
 .main-header-signin-btn{
-    background-color: aliceblue;
+    background-color: #fff;
     color: #030303;
     font-size: 14px;
     font-family:Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
