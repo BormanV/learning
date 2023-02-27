@@ -27,6 +27,7 @@
 }
 
 .main-header-menu-search{
+    padding: 0px 0px 0px 11px;
     display: flex;
     /* flex-wrap: wrap; */
     color: #fff;
@@ -41,7 +42,6 @@
 .span{
     background-color: aliceblue
 }
-
 
 .main-header-signin{
     margin-top: -30px;
