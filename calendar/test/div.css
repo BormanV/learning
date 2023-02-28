@@ -47,21 +47,15 @@
     margin-top: -30px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content:flex-end;
 }
-/* .main-header-signin-broadcast{
-
-} */
-/* .path{
-    background-color: #fff;
-} */
 
 .main-header-signin-btn{
     background-color: #fff;
     color: #030303;
     font-size: 14px;
     font-family:Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     height: 32px;
     padding: 0 16px;
