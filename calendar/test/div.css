@@ -49,6 +49,19 @@
     align-items: center;
     justify-content:flex-end;
 }
+svg{
+    height: 20px;
+    width: 20px;
+}
+.main-header-signin-broadcast{
+    display: inline-flex;
+    justify-content: right; 
+    padding: 0px 0px 0px 10% ;
+}
+
+.main-header-signin-settings{
+
+}
 
 .main-header-signin-btn{
     background-color: #fff;
