@@ -59,8 +59,9 @@ svg{
     padding: 0px 0px 0px 10% ;
 } */
 
-.main-header-signin-settings{
-
+.main-top-ganers{
+    color: #fff;
+    display: flex;
 }
 
 .main-header-signin-btn{
