@@ -59,11 +59,6 @@ svg{
     padding: 0px 0px 0px 10% ;
 } */
 
-.main-top-ganers{
-    color: #fff;
-    display: flex;
-}
-
 .main-header-signin-btn{
     background-color: #fff;
     color: #030303;
@@ -75,5 +70,26 @@ svg{
     padding: 0 16px;
     border-radius: 16px;
     }
+.main-top{
+    display: flex;
+    justify-content: left;
+    margin: 60px 15%;
+}
 
-
+.main-top-ganers{
+        color: #fff;
+        display: flex;
+        justify-content: flex-start;
+        gap: 1em;
+    }
+.main-top-genres-link{
+    padding: 0px 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: slategrey;
+    border-radius: 9px;
+   /*  padding: 5px; */
+    height: 36px;
+    }
