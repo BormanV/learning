@@ -78,7 +78,7 @@ svg{
 .main-top{
     display: flex;
     justify-content: left;
-    margin: 60px 15%;
+    margin: 3% 12%;
 }
 
 .main-top-ganers{
@@ -101,7 +101,7 @@ svg{
     }
 
 .main-stm{
-    margin: 7% 15%;
+    margin: 4% 12%;
     display: flex;
     justify-content: left;
     font-size: 45px;
