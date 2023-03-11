@@ -113,5 +113,6 @@ svg{
 }
 
 .main-stm-radio-header-btns{
-
+    display: flex;
+    justify-content: end;
 }
