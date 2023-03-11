@@ -116,6 +116,7 @@ svg{
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
+    margin: 0 0 2px;
 }
 
 .main-stm-radio-header-text-track{
@@ -125,5 +126,6 @@ svg{
 
 .main-stm-radio-header-btns{
     display: flex;
-    justify-content: end;
+    align-items: center;
+    justify-content:flex-end;
 }
