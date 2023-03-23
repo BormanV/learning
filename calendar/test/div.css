@@ -144,16 +144,18 @@ svg{
 }
 .main-music-header{
     display: flex;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
     height: 200px;
+    width: 1200px;
 }
 
 .main-music-header-tracks{
     color: #fff;
-    font-size: 15px;
-    margin: 0 12%;
+    font-size: 13px;
+    margin: 0 9%;
 }
 
 .main-music-header-tracks-img{
