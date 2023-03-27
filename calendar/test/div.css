@@ -7,11 +7,16 @@
 }
 
 .main-header-logo {
-   
+   display: flex;
+   flex-direction: row;
+    align-items: center;
 }
 
 .main-header-logo-img{
     margin: 1%;
+}
+.main-header-logo-name{
+    color: #fff;
 }
 .main-header-menu-navigation{
     display: flex;
