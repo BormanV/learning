@@ -18,6 +18,7 @@ header{
 
 li{
     list-style-type: none;
+    border: solid 1px black;
 }
 .headerNav{
     display: flex;
