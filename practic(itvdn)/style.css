@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -18,7 +20,7 @@ header{
 
 li{
     list-style-type: none;
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
 .headerNav{
     display: flex;
@@ -31,4 +33,25 @@ li{
     font-family: 'Sans', sans-serif;
     font-weight: 100;
     cursor: pointer;
+}
+.headerNav:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .5s;
+}
+
+.btnContact{
+   border: none;
+    width: 138px;
+    height: 48px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btnContact:hover{
+    background-color: #f9bf77;
+    color: #000;
+    transition: .5s;
 }
