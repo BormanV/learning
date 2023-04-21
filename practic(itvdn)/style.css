@@ -55,3 +55,17 @@ li{
     color: #000;
     transition: .5s;
 }
+.footer{
+    display: flex;
+    position : fixed;
+    bottom : 0;
+    height: 5%;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    }
+
+.footer:hover{
+    background-color: #f9bf77;
+    transition: .7s;
+}
