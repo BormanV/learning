@@ -33,8 +33,37 @@ font-size: 41px;
 line-height: 100%;
 text-transform: uppercase;
 color:#3F2A1E ;
+margin-right: 229px;
 }
 
 .logo span{
 	color: #FB6C1C;
+}
+.main-nav{
+	display: inline;
+}
+.main-menu{
+list-style: none;
+margin: 0;
+padding: 0;
+display: inline;
+}
+
+.socials{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+.main-menu-item{
+	display: inline;
+	margin-right: 85px;
+}
+.socials-items{
+	display: inline;
+	margin-right: 7px;
+}
+.link-menu{
+	color: black;
 }
