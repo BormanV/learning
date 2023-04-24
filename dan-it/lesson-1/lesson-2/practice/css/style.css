@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+.main-header{
+	padding-top: 61px;
+	padding-bottom: 61px;
+}
+.container {
+	max-width: 1370px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo{
+	
+font-weight: 600;
+font-size: 41px;
+line-height: 100%;
+text-transform: uppercase;
+color:#3F2A1E ;
+}
+
+.logo span{
+	color: #FB6C1C;
+}
