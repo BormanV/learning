@@ -1,0 +1,45 @@
+.main-header-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.picture{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-header-nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+ .main-header-nav-menu-item {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.button{
+    justify-content: center;
+    
+}
+ 
+.button{
+    color: brown;
+}
+
