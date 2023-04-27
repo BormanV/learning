@@ -27,19 +27,30 @@
     padding: 14px 16px;
     text-decoration: none;
   }
+
 h2{
     text-align: center;
 }
+
 p{
     text-align: center;
 }
 
-.button{
+.btn{
+    display: flex;
     justify-content: center;
-    
+    }
+button{
+    background-color: rgba(243, 34, 7, 0.973);
+    color: aliceblue;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .7s;
 }
- 
-.button{
-    color: brown;
+button:hover{
+    background-color: rgb(216, 8, 8);
+    transition: .5s;
 }
-
