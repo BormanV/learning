@@ -9,9 +9,11 @@
     display: flex;
     justify-content: center;
 }
-img{
-    width: 1500px;
-    
+.main-logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 175px;
+    height: 100px;
 }
 
 .main-header-nav-menu {
@@ -19,13 +21,22 @@ img{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid black;
+    border: none;
+    font-size: 18px;
   }
   
+
  .main-header-nav-menu-item {
     float: left;
   }
-  
+  .main-header-nav-menu-item:hover{
+    background-color: black;
+    transition: .5s;
+  }
+  .main-header-nav-menu-link:hover{
+    color: white;
+    transition: .5s;
+  }
   li a {
     display: inline-block;
     color: black;
@@ -39,7 +50,6 @@ img{
     justify-content: center;
     flex-direction: column;
 }
-
 
 h2{
     text-align: center;
