@@ -5,9 +5,13 @@
 
 
 .picture{
-    max-width: 100%;
+    /* max-width: 100%; */
     display: flex;
     justify-content: center;
+}
+img{
+    width: 1500px;
+    
 }
 
 .main-header-nav-menu {
@@ -15,6 +19,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+    border: 1px solid black;
   }
   
  .main-header-nav-menu-item {
@@ -28,6 +33,14 @@
     text-decoration: none;
   }
 
+.main-content{
+    margin: 0 10% 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 h2{
     text-align: center;
 }
@@ -40,6 +53,7 @@ p{
     display: flex;
     justify-content: center;
     }
+
 button{
     background-color: rgba(243, 34, 7, 0.973);
     color: aliceblue;
