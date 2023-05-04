@@ -1,6 +1,10 @@
+body{
+    background-color: rgb(254, 242, 228);
+}
 .main-header-container{
     display: flex;
     justify-content: center;
+    /* border: 1px solid black; */
 }
 
 
@@ -8,14 +12,21 @@
     /* max-width: 100%; */
     display: flex;
     justify-content: center;
+    
 }
 .main-logo{
     display: flex;
-    justify-content: flex-start;
-    width: 175px;
-    height: 100px;
+    justify-content: start;
+    /* width: 1000px; */
+    height: 40px;
+    margin-right: 17%;
+    
 }
-
+.main-header-nav{
+    margin-right: 25%;
+    display: flex;
+    box-sizing: inherit;
+}
 .main-header-nav-menu {
     list-style-type: none;
     margin: 0;
@@ -25,19 +36,18 @@
     font-size: 18px;
   }
   
-
- .main-header-nav-menu-item {
+.main-header-nav-menu-item {
     float: left;
   }
-  .main-header-nav-menu-item:hover{
+.main-header-nav-menu-item:hover{
     background-color: black;
-    transition: .5s;
+    transition: .8s;
   }
-  .main-header-nav-menu-link:hover{
-    color: white;
-    transition: .5s;
+.main-header-nav-menu-link:hover{
+    color: rgb(254, 242, 228);
+    transition: .9s;
   }
-  li a {
+li a {
     display: inline-block;
     color: black;
     padding: 14px 16px;
@@ -57,11 +67,13 @@ h2{
 
 p{
     text-align: center;
+    margin: 5px 35px 5px;
 }
 
 .btn{
     display: flex;
     justify-content: center;
+    margin: 30px 0 50px;
     }
 
 button{
@@ -74,7 +86,21 @@ button{
     cursor: pointer;
     transition: .7s;
 }
+
 button:hover{
     background-color: rgb(216, 8, 8);
     transition: .5s;
+}
+.ftr{
+    height: 40px;
+    background-color: rgb(1, 20, 82);
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+h3{
+    
 }
