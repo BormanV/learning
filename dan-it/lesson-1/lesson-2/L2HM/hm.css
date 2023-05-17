@@ -97,15 +97,20 @@ button:hover{
     transition: .5s;
 }
 .ftr{
-    height: 40px;
+    height: 500px;
     background-color: rgb(1, 20, 82);
     color: antiquewhite;
+    box-sizing: border-box;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin:15px -8px -15px;
+}
+
+
+h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
-}
-
-h3{
-    
+    padding: 50px;
 }
